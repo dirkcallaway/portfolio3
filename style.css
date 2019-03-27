@@ -1,0 +1,45 @@
+.fredoka {
+  font-family: 'Fredoka One', cursive;
+}
+
+.lon {
+  font-family: 'Londrina Solid', cursive;;
+}
+
+.is-darker {
+  background-color: #0F3954;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main-content {
+  margin-bottom: 50px;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.is-vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.imgRotate {
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+}
+
+.imgRotate:hover {
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
