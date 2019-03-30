@@ -1,3 +1,8 @@
+  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+  particlesJS.load('particles-js', 'assets/particlesjs-config.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+
 $(document).ready(function() {
 
   // Check for click events on the navbar burger icon
@@ -20,9 +25,4 @@ $(document).ready(function() {
   $("#email-submit").on("click", function() {
     $(".clear").val("");
   })
-
-  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'assets/particlesjs-config.json', function() {
-  console.log('callback - particles.js config loaded');
-});
 });
