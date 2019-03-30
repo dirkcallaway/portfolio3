@@ -43,3 +43,7 @@ body {
     -webkit-transform: rotate(25deg);
     transform: rotate(25deg);
 }
+
+.is-round {
+  border-radius: 5px;
+}

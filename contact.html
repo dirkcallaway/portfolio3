@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-bottom">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matt's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Londrina+Solid" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="has-navbar-fixed-bottom">
+  <div class="main-content has-background-primary">
+    <nav class="navbar is-primary">
+      <div class="container">
+        <div class="navbar-brand">
+          <!--Brand Here if Wanted-->
+          <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroB" class="navbar-menu">
+          <div class="navbar-end fredoka">
+            <a class="navbar-item is-size-4" target="_blank" href="https://github.com/dirkcallaway">
+              <span class="icon has-text-dark is-size-4">
+                <i class="fab fa-github-square"></i>
+              </span>
+              <span>
+                GitHub
+              </span>
+            </a>
+            <a class="navbar-item is-size-4" target="_blank" href="https://www.linkedin.com/in/matt-perroni-830186170/">
+              <span class="icon has-text-dark is-size-4">
+                <i class="fab fa-linkedin"></i>
+              </span>
+              <span>
+                LinkedIn
+              </span>
+            </a>
+            <a class="navbar-item is-size-4">
+              <span class="icon has-text-dark is-size-4">
+                <i class="far fa-file"></i>
+              </span>
+              <span>
+                Resume
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section mb-0">
+      <div class="container has-text-centered">
+        <h1 class="title lon">Let's chat.</h1>
+      </div>
+    </section>
+
+    <!--Email Form-->
+    <section class="section">
+      <div class="columns">
+        <div class="column is-6 is-offset-3 has-background-white is-round">
+          <div class="field" action="mailto:matt.perroni@gmail.com" method="post" enctype="text/plain">
+            <label class="label fredoka">Name</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input clear" type="text" placeholder="Your Name">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label fredoka">Email</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input clear" type="text" placeholder="Your Email">
+              <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label fredoka">Message</label>
+            <div class="control">
+              <textarea class="textarea clear" placeholder="What's up?"></textarea>
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="control">
+              <button class="button is-link" id="email-submit" value="Send">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="navbar tabs is-boxed is-fullwidth is-fixed-bottom has-background-info">
+      <div class="container">
+        <ul class="has-background-info fredoka is-size-4 is-size-5-mobile">
+          <li class="">
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="index.js"></script>
+
+</html>

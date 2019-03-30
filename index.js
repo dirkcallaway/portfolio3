@@ -16,4 +16,8 @@ $(document).ready(function() {
   $(".delete, .modal-background").on("click", function () {
     $(".modal").removeClass("is-active");
   })
+
+  $("#email-submit").on("click", function() {
+    $(".clear").val("");
+  })
 });
