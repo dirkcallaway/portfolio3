@@ -20,7 +20,7 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 80,
+        value: 400,
         density: {
           enable: true,
           value_area: 800
@@ -39,41 +39,41 @@ var pJS = function(tag_id, params){
           nb_sides: 5
         },
         image: {
-          src: 'img/github.svg',
+          src: '',
           width: 100,
           height: 100
         }
       },
       opacity: {
         value: 1,
-        random: true,
+        random: false,
         anim: {
-          enable: true,
-          speed: 0.5,
-          opacity_min: 0.5684540486109416,
+          enable: false,
+          speed: 2,
+          opacity_min: 0,
           sync: false
         }
       },
       size: {
-        value: 8.017060304327615,
-        random: true,
+        value: 20,
+        random: false,
         anim: {
           enable: false,
-          speed: 40,
-          size_min: 0.1,
+          speed: 20,
+          size_min: 0,
           sync: false
         }
       },
       line_linked: {
-        enable: false,
+        enable: true,
         distance: 100,
         color: '#fff',
-        opacity: 0.4,
+        opacity: 1,
         width: 1
       },
       move: {
         enable: true,
-        speed: 0.3,
+        speed: 2,
         direction: 'none',
         random: false,
         straight: false,
@@ -81,8 +81,8 @@ var pJS = function(tag_id, params){
         bounce: false,
         attract: {
           enable: false,
-          rotateX: 600,
-          rotateY: 1200
+          rotateX: 3000,
+          rotateY: 3000
         }
       },
       array: []
@@ -91,18 +91,18 @@ var pJS = function(tag_id, params){
       detect_on: 'canvas',
       events: {
         onhover: {
-          enable: false,
+          enable: true,
           mode: 'grab'
         },
         onclick: {
-          enable: false,
+          enable: true,
           mode: 'push'
         },
         resize: true
       },
       modes: {
         grab:{
-          distance: 400,
+          distance: 100,
           line_linked:{
             opacity: 1
           }
@@ -125,7 +125,7 @@ var pJS = function(tag_id, params){
       },
       mouse:{}
     },
-    retina_detect: true,
+    retina_detect: false,
     fn: {
       interact: {},
       modes: {},
