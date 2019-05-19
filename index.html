@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-bottom">
 
 <head>
   <meta charset="utf-8">
@@ -11,80 +11,81 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <section class="hero is-info is-fullheight">
-    <div class="hero-head">
-      <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <!--Brand Here if Wanted-->
-            <span class="navbar-burger burger" data-target="navbarMenuHeroB">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenuHeroB" class="navbar-menu">
-            <div class="navbar-end fredoka">
-              <a class="navbar-item is-size-4" target="_blank" href="https://github.com/dirkcallaway">
-                <span class="icon has-text-dark is-size-4">
-                  <i class="fab fa-github-square"></i>
-                </span>
-                <span>
-                  GitHub
-                </span>
-              </a>
-              <a class="navbar-item is-size-4" target="_blank" href="https://www.linkedin.com/in/matt-perroni-830186170/">
-                <span class="icon has-text-dark is-size-4">
-                  <i class="fab fa-linkedin"></i>
-                </span>
-                <span>
-                  LinkedIn
-                </span>
-              </a>
-              <a class="navbar-item is-size-4 target="_blank" href="https://docs.google.com/document/d/1J9FBIOinKLnjl2Xa0vt0VpfOPW7a_x2TtnO08K9F3gc/edit?usp=sharing"">
-                <span class="icon has-text-dark is-size-4">
-                  <i class="far fa-file"></i>
-                </span>
-                <span>
-                  Resume
-                </span>
-              </a>
-            </div>
+<body class="has-navbar-fixed-bottom noScroll">
+  <div class="main-content has-background-info">
+    <nav class="navbar is-info">
+      <div class="container">
+        <div class="navbar-brand">
+          <!--Brand Here if Wanted-->
+          <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroB" class="navbar-menu">
+          <div class="navbar-end fredoka">
+            <a class="navbar-item is-size-4" target="_blank" href="https://github.com/dirkcallaway">
+              <span class="icon has-text-dark is-size-4">
+                <i class="fab fa-github-square"></i>
+              </span>
+              <span>
+                GitHub
+              </span>
+            </a>
+            <a class="navbar-item is-size-4" target="_blank" href="https://www.linkedin.com/in/matt-perroni-830186170/">
+              <span class="icon has-text-dark is-size-4">
+                <i class="fab fa-linkedin"></i>
+              </span>
+              <span>
+                LinkedIn
+              </span>
+            </a>
+            <a class="navbar-item is-size-4" target="_blank"
+              href="https://docs.google.com/document/d/1J9FBIOinKLnjl2Xa0vt0VpfOPW7a_x2TtnO08K9F3gc/edit?usp=sharing">
+              <span class="icon has-text-dark is-size-4">
+                <i class="far fa-file"></i>
+              </span>
+              <span>
+                Resume
+              </span>
+            </a>
           </div>
         </div>
-      </nav>
-    </div>
-
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <p class="title lon is-size-2">
-          Hi, I'm Matt.
-        </p>
-        <p class="subtitle lon is-size-4">
-          I'm a full-stack developer who loves to build things.
-        </p>
       </div>
-    </div>
+    </nav>
 
-    <div class="hero-foot has-background-primary">
-      <nav class="tabs is-boxed is-fullwidth">
-        <div class="container">
-          <ul class="has-background-primary fredoka is-size-4 is-size-5-mobile">
-            <li class="">
-              <a href="about.html">About</a>
-            </li>
-            <li>
-              <a href="projects.html">Projects</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
+    <section class="section">
+      <div class="columns full">
+        <div class="column is-12 has-text-centered vcentered">
+          <p class="title lon is-size-2">
+            Hi, I'm Matt.
+          </p>
+          <p class="subtitle lon is-size-4">
+            I'm a full-stack developer who loves to build things.
+          </p>
         </div>
-      </nav>
-    </div>
-  </section>
+      </div>
+    </section>
+
+    <nav class="navbar tabs is-boxed is-fullwidth is-fixed-bottom has-background-primary">
+      <div class="container">
+        <ul class="has-background-primary fredoka is-size-4 is-size-5-mobile">
+          <li class="">
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="index.js"></script>
