@@ -105,3 +105,8 @@ body.has-navbar-fixed-bottom {
 .noScroll {
   overflow: hidden;
 }
+
+.link-email {
+  color: white;
+  size: 2rem;
+}
